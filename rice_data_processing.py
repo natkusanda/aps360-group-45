@@ -219,7 +219,7 @@ def visualise_all_grain_units(df, species_name, batch_no, index_array,class_num)
             for indices in index_array:
                 x_start = indices[0]
                 y_start = indices[1]
-                unit = img[y_start:y_start+60,x_start:x_start+60,120]
+                unit = img[y_start:y_start+60,x_start:x_start+60,:]
                 #plt.imshow(unit, interpolation='nearest')
                 #plt.show()
 
